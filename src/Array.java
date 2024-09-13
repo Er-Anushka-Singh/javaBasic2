@@ -7,15 +7,16 @@ public class Array {
 //        marks[3]=87;
 //        marks[4]=31;
         int[] arr={34,24,55,87,31};
-//        int index=2;
-//        System.out.println(marks[0]);
-//        System.out.println(marks[1]);
-//        System.out.println(marks[index]);
-//        System.out.println(marks[3]);
-//        System.out.println(marks[4]);
+  //      int index=2;
+//        System.out.println(arr[0]);
+//        System.out.println(arr[1]);
+//        System.out.println(arr[index]);
+//        System.out.println(arr[3]);
+//        System.out.println(arr[4]);
+        //Array Traversal
         int index=0;
-        while(index<5){
-            System.out.println(arr);
+        while(index<arr.length){
+            System.out.println(arr[index]);
             index++;
         }
     }
